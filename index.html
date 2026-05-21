@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="openBtn">Open modal</button>
+    <div class="overlay hidden"></div>
+    <div class="modal hidden">
+        <button class="close">x</button>
+        <form class="form">
+            <div class="form__group">
+                <label class="form__label">email</label>
+                <input type="email" class="form__input">
+            </div>
+            <div class="form__group">
+                <label class="form__label">password</label>
+                <input type="password" class="form__input">
+            </div>
+            <button class="btn form__btn">login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
